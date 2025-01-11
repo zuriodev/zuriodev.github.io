@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zer0code_dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Zer0code</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Bienvenido a Zer0code</h1>
+                <p class="typing-text">Desarrollador Fullstack</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">Ver Proyectos</a>
+                    <a href="#contact" class="btn secondary">Contactar</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>¡Hola! Me encanta crear cosas con código. Me especializo en hacer bots de Discord y páginas web que no solo funcionen bien, sino que también se vean geniales.</p>
+                    <p>Mi meta es simple: hacer cosas útiles y divertidas que ayuden a otros. Siempre estoy aprendiendo algo nuevo y me emociona compartir lo que sé.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Proyectos Completados</h3>
+                        <span class="counter" data-target="15">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Años de Experiencia</h3>
+                        <span class="counter" data-target="2">0</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Zer0code Bot</h3>
+                        <p>Bot de Discord multifuncional con sistema de tickets, moderación y más funcionalidades. </p> <span class="in-progress">En curso</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Lucky Sneakers</h3>
+                        <p>Tienda en línea de zapatillas exclusivas con diseño moderno y responsive.</p> <span class="in-progress">En curso</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Desarrollo Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Desarrollo Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <div class="social-links">
+                    <a href="https://discord.gg/pkNKtmhq" class="social-link">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Zurio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
